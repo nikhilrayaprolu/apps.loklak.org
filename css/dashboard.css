@@ -13,17 +13,21 @@
   background-color: Grey;
   
 }
-a:hover{
-  color: White; 
-}
+
 .reveal a:hover{
   color:Black;
 }
 ul, p {
   color: White;
 }
-a, a:visited, a:focus {
+a {
   color: Grey;
+}
+a:visited {
+  color:#551A8B;
+}
+a:hover{
+  color: White; 
 }
 ul.request {
   font-size: 80%;
