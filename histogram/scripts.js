@@ -15,8 +15,8 @@ histogramApp.controller("LoklakCtrl", ["$scope", "$resource", function ($scope, 
             get:{method:'JSONP'}
        });
                                 
-	    $scope.from = "2016-01-01";
-	    $scope.to = "2016-01-20";
+	    $scope.from = new Date("2016/01/01");
+	    $scope.to = new Date("2016/01/20");
         $scope.query = "fossasia"
         //default
         
